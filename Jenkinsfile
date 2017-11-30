@@ -1,5 +1,8 @@
+import groovy.json.JsonOutput
+
+def description = params.description
 
 node() {
-   echo 'test parameters:' params
+   echo 'test parameters:' $description
    echo "test"
 }
