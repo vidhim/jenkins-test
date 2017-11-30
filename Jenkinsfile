@@ -1,4 +1,5 @@
+
 node() {
-   echo 'test parameters:' $params.description
+   echo 'test parameters:' params
    echo "test"
 }
