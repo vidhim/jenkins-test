@@ -1,6 +1,7 @@
 import groovy.json.JsonOutput
 
 def desc = params.description
+def source_code
 
 node() {
    echo "test parameters: $params"
