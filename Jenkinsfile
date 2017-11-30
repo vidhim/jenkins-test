@@ -13,7 +13,7 @@ node() {
             }
         sh (script:"git ls-files")
         echo "Get repo stage completed"
-        } error(e){
+        } catch(e){
             echo "error: $e"
         }
     }
