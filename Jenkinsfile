@@ -1,4 +1,4 @@
-node('mesos_cloud') {
+node() {
    echo 'test parameters:' $params.description
    echo "test"
 }
